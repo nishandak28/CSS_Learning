@@ -1,0 +1,45 @@
+/* 1.Unversal Selectors  */
+
+* {
+    font-style: italic;
+}
+
+/* Tag selectors */
+
+p{
+    color: aqua;
+    background-color: darkblue;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* ID selectors */
+
+#para1{
+    color: aquamarine;
+}
+
+#para2 {
+    color: chartreuse;
+}
+
+/* Class selectors */
+
+.even{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+/* group selectors */
+h2,h3,h4{
+    text-decoration: overline;
+}
+
+/* Attribute selectors */
+input[type="email"] {
+    background-color: blue;
+}
+
+/* Decentend selectors */
