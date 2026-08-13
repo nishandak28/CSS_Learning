@@ -1,0 +1,56 @@
+.container {
+    width:100vp;
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.head {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    grid-column: 1/4;
+}
+
+.link {
+     background-color: gray;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    grid-row: 2/4;
+    padding-bottom: 100px;
+}
+
+.content {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    grid-row: 2/4;
+    padding-bottom: 100px;
+}
+
+.ads, .sidebar {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    padding-bottom: 50px;
+}
+
+.foot {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    padding-bottom: 10px;
+    grid-column: 1/4;
+}
