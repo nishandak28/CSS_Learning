@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+}
+
+.parent {
+    width: 80%;
+    height: 1000px;
+    border: 5px solid red;
+    margin: 5px;
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    grid-area: 50px;
+}
+
+.parent div {
+    border: 5px solid skyblue;
+    width: 850px;
+    height: 220px;
+    background-color: rgb(14, 205, 142);
+}
+
+.parent .child1 {
+    flex-grow: 5;
+}

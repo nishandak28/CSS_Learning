@@ -1,0 +1,15 @@
+.division {
+    widht: 90%;
+    height: 80%;
+    border: 10px solid blue;
+    margin: 0px;
+    display: flex;
+}
+
+.division div {
+    width: 30%;
+    height: 5%;
+    border: 2px solid gray;
+    background-color: blanchedalmond;
+    padding: 1px;;
+}
